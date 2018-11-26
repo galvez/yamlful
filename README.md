@@ -57,7 +57,7 @@ export default {
     // Thanks to Ben Howdle for the amazing API testing service
     baseURL: 'https://reqres.in/'
   },
-  // By default, yamlful will look for .ymll files in Nuxt's srcDir
+  // By default, yamlful will look for .yml files in Nuxt's srcDir
   modules: ['yamlful-nuxt']
 }
 ```
