@@ -46,9 +46,8 @@ when connecting JavaScrit methods to JSON HTTP APIs.
 # Nuxt.js module
 
 Bundled in this repository is a [Nuxt.js][1] module (`yamlful-nuxt`) that uses 
-`yamful` to generate similar code, integrating itself to [@nuxtjs/axios][2] 
-and exposing API methods to Vue pages. See the `example` directory for a 
-sample Nuxt yamlful app.
+`yamlful` to generate similar code, integrating itself to [@nuxtjs/axios][2] 
+and exposing API methods to Vue pages.
 
 ```js
 export default {
