@@ -106,13 +106,13 @@ The Nuxt.js module also allows you to inline JavaScript in YAML for defining raw
   }
 ```
 
-Note tht `client` is used to [inject][3] Nuxt's axios instance.
+Note that `client` is used to [inject][3] Nuxt's axios instance.
 
 See the [API template][4] used for the Nuxt module.
 
 # Other frameworks
 
-Modules and extensions for other frameworks can be implemented using the main exported function in the `yamful` package. PRs are very much welcome.
+Modules and extensions for other frameworks can be implemented using the main exported function in the `yamlful` package. PRs are very much welcome.
 
 [1]: https://nuxtjs.org
 [2]: https://github.com/nuxt-community/axios-module
