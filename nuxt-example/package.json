@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "nuxt": "^2.3.2",
+    "yamlful-nuxt": "^0.3.4"
+  }
+}

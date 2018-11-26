@@ -1,0 +1,3 @@
+users:
+  - method: get
+    get: /api/users/:id
