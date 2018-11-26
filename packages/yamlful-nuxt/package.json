@@ -7,6 +7,9 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue ."
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "src/index.js",
   "module": "src/index.mjs",
   "dependencies": {
@@ -24,5 +27,5 @@
     "eslint-plugin-vue": "^4.7.1",
     "standard": "^10.0.2"
   },
-  "gitHead": "b5f2fe35a7911a8bd6b27dbebc5129cb5eef247d"
+  "gitHead": "2bfc667be76b0044fa78c7e2414e2f24276788cf"
 }

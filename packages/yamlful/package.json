@@ -4,6 +4,9 @@
   "license": "MIT",
   "description": "YAML RESTful API loader",
   "author": "Jonas Galvez",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint --ext .js,.vue ."
   },
@@ -13,5 +16,5 @@
     "@nuxtjs/axios": "^5.3.6",
     "js-yaml": "^3.12.0"
   },
-  "gitHead": "b5f2fe35a7911a8bd6b27dbebc5129cb5eef247d"
+  "gitHead": "2bfc667be76b0044fa78c7e2414e2f24276788cf"
 }
