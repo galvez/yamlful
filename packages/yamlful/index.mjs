@@ -14,6 +14,7 @@ function loadResources (srcDir) {
     throw new Error(`No resources found.`)
   }
   const api = readdirSync(resourcesPath)
+    .filter((file) => file.match(/\.ya?ml$/))
     .reduce((obj, file) => {
       const yamlConfig = loadYAML(join(resourcesPath, file))
       return { ...obj, ...yamlConfig }
