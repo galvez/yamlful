@@ -117,4 +117,4 @@ Modules and extensions for other frameworks can be implemented using the main ex
 [1]: https://nuxtjs.org
 [2]: https://github.com/nuxt-community/axios-module
 [3]: https://blog.lichter.io/posts/organize-and-decouple-your-api-calls-in-nuxtjs
-[3]: https://github.com/nuxt-community/axios-module
+[4]: https://github.com/galvez/yamlful/blob/master/packages/yamlful-nuxt/templates/api.js
