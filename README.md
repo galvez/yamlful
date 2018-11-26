@@ -36,9 +36,11 @@ const sample = {
 # Motivation
 
 Boilerplate JavaScript for exposing HTTP API client methods is pretty simple most 
-of the time. However, when you have a huge API with dozens of different resources, 
-more streamlined YAML configuration makes it easier to maintain it while dealing 
-with constant change. **yamlful** was born by identifying these key simple patterns 
+of the time. 
+
+However, when you have a huge API with dozens of different resources, more 
+streamlined YAML configuration makes it easier to maintain it while dealing with 
+constant change. **yamlful** was born by identifying these key simple patterns 
 when connecting JavaScrit methods to JSON HTTP APIs.
 
 # Nuxt.js module
