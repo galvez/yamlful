@@ -1,5 +1,5 @@
 import { resolve } from 'path'
-import yamlful from '../src/index'
+import yamlful from 'yamlful'
 
 export default function (userOptions = {}) {
   // Apply default options
