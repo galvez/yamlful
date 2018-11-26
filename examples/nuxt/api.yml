@@ -1,7 +1,0 @@
-users:
-  - method: list
-    get: /api/users
-  - method: get
-    get: /api/users/:id
-  - method: create
-    post: /api/users
