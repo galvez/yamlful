@@ -1,6 +1,5 @@
 {
   "name": "root",
-  "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue packages/",
     "postinstall": "lerna link"

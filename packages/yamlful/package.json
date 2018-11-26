@@ -12,5 +12,6 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "js-yaml": "^3.12.0"
-  }
+  },
+  "gitHead": "b5f2fe35a7911a8bd6b27dbebc5129cb5eef247d"
 }
