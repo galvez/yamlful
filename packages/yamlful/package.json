@@ -1,0 +1,16 @@
+{
+  "name": "yamlful",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "YAML RESTful API loader",
+  "author": "Jonas Galvez",
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ."
+  },
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "js-yaml": "^3.12.0"
+  }
+}

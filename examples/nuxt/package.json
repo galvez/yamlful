@@ -1,0 +1,10 @@
+{
+  "name": "nuxt-yamlful-example",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Nuxt yamlful example",
+  "author": "Jonas Galvez",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6"
+  }
+}
