@@ -49,6 +49,12 @@ Bundled in this repository is a [Nuxt.js][1] module (`yamlful-nuxt`) that uses
 `yamlful` to generate similar code, integrating itself to [@nuxtjs/axios][2] 
 and exposing API methods to Vue pages.
 
+```sh
+npm install yamful-nuxt --save
+```
+
+In `nuxt.config.js`:
+
 ```js
 export default {
   // Thanks to Pooya Parsa for the awesome Nuxt Axios module
@@ -61,6 +67,8 @@ export default {
   modules: ['yamlful-nuxt']
 }
 ```
+
+In `pages/index.vue`:
 
 ```js
 export default {
