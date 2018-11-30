@@ -13,7 +13,7 @@ sample:
     delete: myresource/
 ```
 
-It uses a simple pattern to determine _function arguments_ and _HTTP parameters_, so that methods that use `PUT` or `POST` get a payload and others don't, while preserving the URL parameters defined in each YAML-defined endpoint.
+It uses a simple pattern to determine _function arguments_ and _HTTP parameters_, so that methods that use `PUT` or `POST` get a payload and others don't, while preserving the URL parameters in each YAML-defined endpoint.
 
 The above YAML file can be used to generate a snippet like this:
 
