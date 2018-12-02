@@ -4,8 +4,8 @@ export default (client) => ({<%
   <% for (const method of options.api[resource]) {
     if ('raw' in method) { %>
     <%= method.name %>: <%= method.raw %>,<% } else { %>
-    <%= method.name %>: (<%= method.args %>) => {
-      return client.<%= method.verb %>(<%= method.endpoint %><%= method.params %>)
+    <%= method.name %>: (<%= method.args %>, params = {}) => {
+      return client.<%= method.verb %>(<%= method.endpoint %><%= method.params %>, { params })
     },<% } %><% } %>
   },<% } %>
 })

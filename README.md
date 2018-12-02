@@ -19,17 +19,17 @@ The above YAML file can be used to generate a snippet like this:
 
 ```js
 const sample = {
-  get: (id, subId) => {
-    return client.get(`/resource/${id}/subresource/${subId}`)
+  get: (id, subId, params = {}) => {
+    return client.get(`/resource/${id}/subresource/${subId}`, { params })
   },
-  create: (id, payload) {
-    return client.post(`/resource/${id}/subresource`, payload)
+  create: (id, payload, params = {}) {
+    return client.post(`/resource/${id}/subresource`, payload, { params })
   },
-  update: (id, subId, payload) {
-    return client.put(`/resource/${id}/subresource/${subId}`, payload)
+  update: (id, subId, payload, params = {}) {
+    return client.put(`/resource/${id}/subresource/${subId}`, payload, { params })
   },
-  remove: (id) => {
-    return client.delete(`myresource/${id}`)
+  remove: (id, params) => {
+    return client.delete(`myresource/${id}`, { params })
   }
 ```
 
