@@ -1,6 +1,6 @@
 {
   "name": "yamlful-nuxt",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "license": "MIT",
   "description": "YAML RESTful API loader for Nuxt.js",
   "author": "Jonas Galvez",
