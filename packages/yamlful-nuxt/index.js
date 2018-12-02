@@ -13,7 +13,7 @@ module.exports = function (userOptions = {}) {
     src: resolve(__dirname, 'templates/plugin.js'),
     fileName: 'yamlful/plugin.js'
   })
-  
+
   // Add yamlful API template
   this.addTemplate({
     src: resolve(__dirname, 'templates/api.js'),

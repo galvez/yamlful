@@ -1,1 +1,2 @@
-src/nuxt/templates/api.js
+packages/yamlful-nuxt/templates/api.js
+packages/*/node_modules
