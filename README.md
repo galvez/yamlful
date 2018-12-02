@@ -31,6 +31,7 @@ const sample = {
   remove: (id, params = {}) => {
     return client.delete(`myresource/${id}`, { params })
   }
+}
 ```
 
 # Motivation
