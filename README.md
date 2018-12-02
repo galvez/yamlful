@@ -28,7 +28,7 @@ const sample = {
   update: (id, subId, payload, params = {}) {
     return client.put(`/resource/${id}/subresource/${subId}`, payload, { params })
   },
-  remove: (id, params) => {
+  remove: (id, params = {}) => {
     return client.delete(`myresource/${id}`, { params })
   }
 ```
