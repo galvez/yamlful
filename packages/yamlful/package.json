@@ -1,6 +1,6 @@
 {
   "name": "yamlful",
-  "version": "0.3.5",
+  "version": "0.3.7",
   "license": "MIT",
   "description": "YAML RESTful API loader",
   "author": "Jonas Galvez",
@@ -14,8 +14,8 @@
   "module": "./index.mjs",
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
-    "lodash.defaultsdeep": "^4.6.0",
-    "js-yaml": "^3.12.0"
+    "js-yaml": "^3.12.0",
+    "lodash.defaultsdeep": "^4.6.0"
   },
   "gitHead": "2bfc667be76b0044fa78c7e2414e2f24276788cf"
 }
