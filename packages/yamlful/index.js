@@ -18,8 +18,14 @@ function loadResources (srcDir) {
     .reduce((obj, file) => {
       const yamlConfig = loadYAML(join(resourcesPath, file))
       for (const resource in yamlConfig) {
-        obj[resource] = [...(obj[resource] || []), ...yamlConfig[resource]]
+        if (obj[resource]) {
+          obj[resource].push(...yamlConfig[resource])
+          return obj
+        } else {
+          return obj[resource] = yamlConfig[resource]
+        }
       }
+      return obj
     }, {})
   return api
 }
