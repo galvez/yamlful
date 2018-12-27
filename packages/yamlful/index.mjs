@@ -1,6 +1,6 @@
 import { existsSync, readdirSync } from 'fs'
 import { join } from 'path'
-import defaultsDeep from 'lodash.defaultsDeep'
+import defaultsDeep from 'lodash.defaultsdeep'
 import yaml from 'js-yaml'
 
 function loadYAML (yamlFile) {
@@ -18,7 +18,10 @@ function loadResources (srcDir) {
     .filter((file) => file.match(/\.ya?ml$/))
     .reduce((obj, file) => {
       const yamlConfig = loadYAML(join(resourcesPath, file))
-      return defaultsDeep(obj, yamlConfig)
+      for (const resource in yamlConfig) {
+        obj[resource] = defaultsDeep(obj[resource], yamlConfig[resource])
+      }
+      return obj
     }, {})
   return api
 }

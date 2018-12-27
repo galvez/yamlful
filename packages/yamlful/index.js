@@ -1,6 +1,6 @@
 const { existsSync, readdirSync, readFileSync } = require('fs')
 const { join } = require('path')
-const defaultsDeep = require('lodash.defaultsDeep')
+const defaultsDeep = require('lodash.defaultsdeep')
 const yaml = require('js-yaml')
 
 function loadYAML (yamlFile) {
