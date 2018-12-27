@@ -20,9 +20,8 @@ function loadResources (srcDir) {
       for (const resource in yamlConfig) {
         if (obj[resource]) {
           obj[resource].push(...yamlConfig[resource])
-          return obj
         } else {
-          return obj[resource] = yamlConfig[resource]
+          obj[resource] = yamlConfig[resource]
         }
       }
       return obj
