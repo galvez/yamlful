@@ -1,6 +1,6 @@
 {
   "name": "yamlful-nuxt",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "license": "MIT",
   "description": "YAML RESTful API loader for Nuxt.js",
   "author": "Jonas Galvez",
@@ -15,7 +15,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "js-yaml": "^3.12.0",
-    "yamlful": "^0.3.7"
+    "yamlful": "^0.3.8"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
