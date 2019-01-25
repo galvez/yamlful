@@ -7,7 +7,7 @@ export default (client) => ({<%
     <%= method.name %>: (<%= method.args.length > 0 ? `${method.args}, ` : '' %>params = {}) => {<%
       if (method.queryParams) { %>
       Object.assign(params, <%= method.queryParams %>)<% } %>
-      return client.<%= method.verb %>(<%= method.endpoint %><%= method.params %>, { params })
+      return client.<%= method.verb %>(<%= method.endpoint %><%= method.params %>, params)
     },<% } %><% } %>
   },<% } %>
 })
