@@ -1,6 +1,7 @@
 const { existsSync, readdirSync, readFileSync } = require('fs')
 const { join } = require('path')
 const yaml = require('js-yaml')
+const serialize = require('serialize-javascript')
 
 function loadYAML (yamlFile) {
   if (existsSync(yamlFile)) {
@@ -58,9 +59,13 @@ function generateMethod (methodConfig) {
       args.push('payload')
       params.push('payload')
     }
+    const queryParams = methodConfig.params
+      ? serialize(methodConfig.params, {spaces: 2})
+      : undefined
     return {
       verb,
       endpoint,
+      queryParams,
       name: methodConfig.method,
       args: args.join(', '),
       params: params.length > 0
