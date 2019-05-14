@@ -51,7 +51,7 @@ Bundled in this repository is a [Nuxt.js][1] module (`yamlful-nuxt`) that uses
 and exposing API methods to Vue pages.
 
 ```sh
-npm install yamful-nuxt --save
+npm install yamlful-nuxt --save
 ```
 
 In `nuxt.config.js`:
