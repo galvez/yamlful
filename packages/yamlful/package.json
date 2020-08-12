@@ -15,7 +15,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "js-yaml": "^3.12.0",
-    "serialize-javascript": "^1.6.1"
+    "serialize-javascript": "^4.0.0"
   },
   "gitHead": "2bfc667be76b0044fa78c7e2414e2f24276788cf"
 }
